@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+margin: 0;
+padding:0;
+}
+
+body{
+  margin:0;
+  font-family: sans-serif;
+  width: 100%;
+  font-family: Lato;
+  font-size: 25px;
+  color:white;
+}
+img{
+  color:white;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+li{
+  margin-right: 20px;
+}
+
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.container{
+width: 100%;
+background: url("./img/wot-masthead-dark.jpg") no-repeat top center;
+background-size: cover;
+height: 520px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 7.8%;
+font-family: 'Oswald', sans-serif;
+}
+
+.workshopContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workshopContainer h1{
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 0.8em;
+
+}
+.workshopContainer h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-self: flex-start;
+  width: 690px;
+}
+.bracket-container{
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.bracket-container h3{
+  font-size: 21px;
+  margin: 0 55px;
+
+
+}
+
+.bracket{
+ width: 92px;
+ height: 10px;
+ background: white;
+
+}
+
+.orange{
+  color: orange;
+}
+.green{
+  color: green;
+}
+
+.button{
+  width: 360px;
+  text-align: center;
+  background-color: green;
+  padding: 13px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+
+.container-bot{
+  width: 100%;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 380px;
+}
+
+.paragraph{
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
+
+.pic{
+  margin-top: 30px;
+}
+.color{
+  color: #BDD436;
+  font-weight: 30;
+}
